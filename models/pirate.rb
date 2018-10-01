@@ -9,7 +9,9 @@ attr_accessor :name, :weight, :height
     @@all << @name, @height, @weight
   end
 
-  
+  def self.all
+    @@all
+  end
 
 
 end
