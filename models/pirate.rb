@@ -9,7 +9,7 @@ attr_accessor :name, :weight, :height
     @@all << @name, @height, @weight
   end
 
-
+  
 
 
 end
