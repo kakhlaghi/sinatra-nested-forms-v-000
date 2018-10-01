@@ -1,5 +1,5 @@
 class Ship 
-  attr_accessor :
+  attr_accessor :name, :type, :booty
   
   
   def self.all
