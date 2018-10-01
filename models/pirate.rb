@@ -8,6 +8,8 @@ attr_accessor :name, :weight, :height
     @weight = weight
     @@all << @name, @height, @weight
   end
-
+ def self.all
+    @@all
+  end
   
 end
