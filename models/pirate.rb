@@ -13,5 +13,7 @@ attr_accessor :name, :weight, :height
     @@all
   end
 
+  def self.clear
+    @@all = []
 
 end
