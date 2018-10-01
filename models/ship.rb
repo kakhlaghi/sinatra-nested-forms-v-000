@@ -1,5 +1,5 @@
 class Ship 
-  
+  attr
   
   
   
